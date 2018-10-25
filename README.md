@@ -45,15 +45,26 @@ be used to upload repositories in your github account via an SSH key.
 ___
 Once your repository is ready and you open it, you can now use the command line via the "bash" tab in your workspace
 
-## Now youre able to use the command line for commands!
+## Now youre able to use the command line for git commands!
 
 
 
 
 ---
 ## Workflow & Commands
+Now that youre in your cloud 9 workspace, you can start learning the basic commands of not only git, but command line also!
+---
+Here are the most important git commands that you will use:
 
+* **git status**: To check your current status for your git repositories 
+* **git add file**: Adds files to your stage, but does not commit them
+* **git commit -m "message"**: adds the files from the stage into a commit, which can be accessed at any time 
+* **git push**: where you push your files into your selected github repository, and can now be accessed at anytime with an internet connection!
 
 
 ---
 ## Rolling Back Changes
+* Undo edit: git checkout -- file
+* Undo add:  git reset HEAD file
+* Undo local commit: git reset --soft HEAD~1
+* Undo commit stored on github: git rm --cached file
